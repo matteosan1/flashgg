@@ -1,0 +1,10 @@
+{
+    "processes" : {
+        "signal" : [
+	"GluGluHToGG_M-125_13TeV_powheg_pythia8",
+	"VBFHToGG_M-125_13TeV_powheg_pythia8"
+	]
+	
+        },
+     "cmdLine" : "campaign=RunIISpring15-50ns targetLumi=1e+3"
+}

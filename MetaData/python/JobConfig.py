@@ -143,6 +143,11 @@ class JobConfig(object):
             processId = self.getProcessId(name)
             self.processId = processId
             
+            if ("itype" in xsec):
+                for name,obj in process.__dict__.iteritems():
+                    if hasattr(obj,"sampleIndex"):
+                        obj.sampleIndex = xsec["itype"]
+
             if self.targetLumi > 0.:
             ## look for analyzers which have lumiWeight as attribute
                 for name,obj in process.__dict__.iteritems():
@@ -208,7 +213,9 @@ class JobConfig(object):
             
         dataset = None
         if self.dataset != "":
+            print "JOBCONFIG", self.dataset 
             print "Reading dataset (%s) %s" % ( self.campaign, self.dataset)
+            #MATTEO
             if self.dryRun and self.getMaxJobs:
                 dataset = SamplesManager("$CMSSW_BASE/src/%s/MetaData/data/%s/datasets.json" % (self.metaDataSrc, self.campaign),
                                          self.crossSections,
@@ -259,6 +266,7 @@ class JobConfig(object):
             processes = cfg["processes"]
             for key,val in processes.iteritems():
                 for dst in val:
+                    print key, dst
                     self.processIdMap[dst] = key
             
             fin.close()

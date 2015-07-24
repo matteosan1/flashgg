@@ -89,7 +89,7 @@ private:
     Float_t njets10;
     Float_t njets15;
     Float_t njets20;
-    Float_t itype;
+    Int_t itype;
     Float_t nvtx;
     Float_t rho;
     Float_t xsec_weight;
@@ -98,6 +98,8 @@ private:
     Float_t pu_n;
     Float_t mass;
     Float_t dipho_pt;
+    Float_t dipho_phi;
+    Float_t dipho_eta;
     Float_t full_cat;
     Float_t et1;
     Float_t et2;
@@ -197,6 +199,7 @@ private:
     Int_t subljet_genmatch;
 
 
+
     edm::EDGetTokenT<edm::View<flashgg::Photon> >            photonToken_; // SCZ work-in-progress adding this!
     edm::EDGetTokenT<edm::OwnVector<flashgg::DiPhotonTagBase> > TagSorterToken_;
 };
@@ -217,13 +220,15 @@ private:
 //
 FlashggTreeMakerWithTagSorter::FlashggTreeMakerWithTagSorter( const edm::ParameterSet &iConfig ):
     vertexToken_( consumes<View<reco::Vertex> >( iConfig.getUntrackedParameter<InputTag> ( "VertexTag", InputTag( "offlineSlimmedPrimaryVertices" ) ) ) ),
-    genParticleToken_( consumes<View<reco::GenParticle> >( iConfig.getUntrackedParameter<InputTag> ( "GenParticleTag", InputTag( "prunedGenParticles" ) ) ) ),
+    genParticleToken_( consumes<View<reco::GenParticle> >( iConfig.getUntrackedParameter<InputTag> ( "GenParticleTag", InputTag( "flashggPrunedGenParticles" ) ) ) ),
     vertexCandidateMapTokenDz_( consumes<VertexCandidateMap>( iConfig.getParameter<InputTag>( "VertexCandidateMapTagDz" ) ) ),
     vertexCandidateMapTokenAOD_( consumes<VertexCandidateMap>( iConfig.getParameter<InputTag>( "VertexCandidateMapTagAOD" ) ) ),
     jetTokenDz_( consumes<View<flashgg::Jet> >( iConfig.getParameter<InputTag>( "JetTagDz" ) ) ),
     diPhotonToken_( consumes<View<flashgg::DiPhotonCandidate> >( iConfig.getParameter<InputTag> ( "DiPhotonTag" ) ) ),
     METToken_( consumes<View<pat::MET> >( iConfig.getUntrackedParameter<InputTag> ( "METTag", InputTag( "slimmedMETs" ) ) ) ),
     PileUpToken_( consumes<View<PileupSummaryInfo> >( iConfig.getUntrackedParameter<InputTag> ( "PileUpTag", InputTag( "addPileupInfo" ) ) ) ),
+    itype( iConfig.getParameter<int> ( "sampleIndex" ) ),
+    xsec_weight( iConfig.getParameter<double> ( "lumiWeight" ) ),
     TagSorterToken_( consumes<edm::OwnVector<flashgg::DiPhotonTagBase> >( iConfig.getUntrackedParameter<InputTag> ( "TagSorter",
                      InputTag( "flashggTagSorter" ) ) ) )
 {
@@ -231,9 +236,7 @@ FlashggTreeMakerWithTagSorter::FlashggTreeMakerWithTagSorter( const edm::Paramet
 }
 
 FlashggTreeMakerWithTagSorter::~FlashggTreeMakerWithTagSorter()
-{
-
-}
+{}
 
 void
 FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::EventSetup &iSetup )
@@ -361,14 +364,13 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
             }
         }
 
-
         //------->event info
         run = iEvent.eventAuxiliary().run();
         event = iEvent.eventAuxiliary().event();
         lumis = iEvent.eventAuxiliary().luminosityBlock();
 
         //------>itype ?? need to determine how bets to implement this FIXME.
-        itype = -1 ;// placeholder. Need to be able to access this one the fly based on the input file or config.
+        //itype = -1 ;// placeholder. Need to be able to access this one the fly based on the input file or config.
         // itype <0, Signal MC
         // itype =0, data
         // itype >0, background MC
@@ -379,12 +381,11 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
         //-----> rho = energy density
         rho = *( rhoHandle.product() );
 
-
         //------> weights and PU and gen vertex and match information
         genmatch1 = 0;
         genmatch2 = 0;
-        xsec_weight = -1;
-        full_weight = -1;
+        //xsec_weight = -1;
+        //full_weight = -1;
         pu_weight = -1;
         pu_n = -1;
         gv_x = -9999.;
@@ -392,8 +393,8 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
         gv_z = -9999.;
 
         if( itype != 0 ) {
-            xsec_weight = 0; //probably can be deleted as initialised above...
-            full_weight = 0;
+            //xsec_weight = 0; //probably can be deleted as initialised above...
+            //full_weight = 0;
             pu_weight = -1;
             pu_n = 0;
 
@@ -494,7 +495,7 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
                     float dr = sqrt( deta * deta + dphi * dphi );
                     float pt_change = ( diPhotons->ptrAt( candIndex )->subLeadingPhoton()->et() - genParticles->ptrAt( ip )->et() ) / genParticles->ptrAt( ip )->et();
                     if( dr < 0.3 && fabs( pt_change ) < 0.5 ) {
-                        genmatch1 = true;
+                        genmatch2 = true;
                         break;
                     }
                 }
@@ -523,9 +524,11 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
 
         mass = diPhotons->ptrAt( candIndex )->mass();
         dipho_pt = diPhotons->ptrAt( candIndex )->pt();
+        dipho_phi = diPhotons->ptrAt( candIndex )->phi();
+        dipho_eta = diPhotons->ptrAt( candIndex )->eta();
         dipho_PToM = dipho_pt / mass;
         //------->full_cat FIXME leaving blank for now, need to implement if/when events are categoriesed. Discuss event interpretatrion.
-        full_cat = 0;
+        //full_cat = 0;
 
         //------>MET info
         if( METs->size() != 1 ) { std::cout << "WARNING - #MET is not 1" << std::endl;}
@@ -685,15 +688,18 @@ FlashggTreeMakerWithTagSorter::beginJob()
     flashggTreeWithTagSorter->Branch( "run", &run, "runNumber/I" );
     flashggTreeWithTagSorter->Branch( "lumis", &lumis, "lumiSection/I" );
     flashggTreeWithTagSorter->Branch( "event", &run, "eventNumber/I" );
+    flashggTreeWithTagSorter->Branch( "itype", &itype, "itype/I" );
     flashggTreeWithTagSorter->Branch( "nvtx", &nvtx, "nvtx/F" );
     flashggTreeWithTagSorter->Branch( "rho", &rho, "rho/F" );
     flashggTreeWithTagSorter->Branch( "xsec_weight", &xsec_weight, "xsec_weight/F" );
-    flashggTreeWithTagSorter->Branch( "full_weight", &full_weight, "full_weight/F" );
+    //flashggTreeWithTagSorter->Branch( "full_weight", &full_weight, "full_weight/F" );
     flashggTreeWithTagSorter->Branch( "pu_weight", &pu_weight, "pu_weight/F" );
     flashggTreeWithTagSorter->Branch( "pu_n", &pu_n, "pu_n/F" );
     flashggTreeWithTagSorter->Branch( "mass", &mass, "mass/F" );
     flashggTreeWithTagSorter->Branch( "dipho_pt", &dipho_pt, "dipho_pt/F" );
-    flashggTreeWithTagSorter->Branch( "full_cat", &full_cat, "full_cat/F" );
+    flashggTreeWithTagSorter->Branch( "dipho_phi", &dipho_phi, "dipho_phi/F" );
+    flashggTreeWithTagSorter->Branch( "dipho_eta", &dipho_eta, "dipho_eta/F" );
+    //flashggTreeWithTagSorter->Branch( "full_cat", &full_cat, "full_cat/F" );
     flashggTreeWithTagSorter->Branch( "et1", &et1, "et1/F" );
     flashggTreeWithTagSorter->Branch( "et2", &et2, "et2/F" );
     flashggTreeWithTagSorter->Branch( "eta1", &eta1, "eta1/F" );

@@ -5,5 +5,13 @@
         "GluGluToHToGG_M-125_13TeV-powheg-pythia6"                      : { "xs" : 43.92,    "br" : 2.28e-3              },
         "VBF_HToGG_M-125_13TeV-powheg-pythia6"                          : { "xs" : 3.748,    "br" : 2.28e-3              },
         "WH_ZH_HToGG_M-125_13TeV_pythia6"                               : { "xs" : 2.2496,   "br" : 2.28e-3              },
-        "TTbarH_HToGG_M-125_13TeV_amcatnlo-pythia8-tauola"              : { "xs" : 0.5608,   "br" : 2.28e-3              }
+        "TTbarH_HToGG_M-125_13TeV_amcatnlo-pythia8-tauola"              : { "xs" : 0.5608,   "br" : 2.28e-3              },
+	"Higgs_scalar" : {"xs":1, "br":1, "kf":1.0, "itype":-1125},
+	"GJet_Pt-20to40_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8" : {"xs":17180.0, "br":0.0379, "kf":1.0, "itype":1},
+	"ttHJetToGG_M130_13TeV_amcatnloFXFX_madspin_pythia8" : {"xs":0.5608, "br":2.28e-3, "kf":1.0, "itype":-130300},
+	"ttHJetToGG_M120_13TeV_amcatnloFXFX_madspin_pythia8" : {"xs":0.5608, "br":2.28e-3, "kf":1.0, "itype":-120300},
+	"ttHJetToGG_M125_13TeV_amcatnloFXFX_madspin_pythia8" : {"xs":0.5608, "br":2.28e-3, "kf":1.0, "itype":-125300},
+	"GluGluHToGG_M-125_13TeV_powheg_pythia8" : {"xs":43.92, "br":2.28e-3, "kf":1.0, "itype":-125000},
+	"VBFHToGG_M-125_13TeV_powheg_pythia8" : {"xs":3.79, "br":2.28e-3, "kf":1.0, "itype":-125100},
+	"GJet_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8" : {"xs":145400.0, "br":0.001776, "kf":1.0, "itype":2}
 }
