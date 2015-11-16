@@ -7,15 +7,15 @@ process = cms.Process("tnp")
 
 ###################################################################
 myoptions = dict()
-isMC = False
+isMC = True
 
 myoptions['HLTProcessName']        = "HLT"
 
 #options['PHOTON_COLL']           = "slimmedPhotons"
 myoptions['DIPHOTON_COLL']         = "flashggDiPhotons"
 myoptions['PHOTON_CUTS']           = "(abs(superCluster.eta)<2.5) && ((superCluster.energy*sin(superCluster.position.theta))>15.0)"
-myoptions['PHOTON_TAG_CUTS']       = "(abs(superCluster.eta)<=2.1) && !(1.4442<=abs(superCluster.eta)<=1.566) && (superCluster.energy*sin(superCluster.position.theta))>30.0"
-myoptions['MAXEVENTS']             = cms.untracked.int32(-1) 
+myoptions['PHOTON_TAG_CUTS']       = "(abs(superCluster.eta)<=2.1) && !(1.4442<=abs(superCluster.eta)<=1.566) && (superCluster.energy*sin(superCluster.position.theta))>20.0"
+myoptions['MAXEVENTS']             = cms.untracked.int32(1000) 
 myoptions['useAOD']                = cms.bool(False)
 myoptions['OUTPUTEDMFILENAME']     = 'edmFile.root'
 myoptions['DEBUG']                 = cms.bool(False)
@@ -69,17 +69,19 @@ myoptions['SUBLEADING_PRESELECTION'] = """
 from flashgg.Validation.treeMakerOptionsPhotons_cfi import *
 
 if (isMC):
-    myoptions['INPUT_FILE_NAME']       = ("/store/group/phys_higgs/cmshgg/sethzenz/flashgg/RunIISpring15-ReMiniAOD-BetaV6-25ns/Spring15BetaV6/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8//RunIISpring15-ReMiniAOD-BetaV6-25ns-Spring15BetaV6-v1-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151015_170625/0000/myMicroAODOutputFile_1.root")
+    myoptions['INPUT_FILE_NAME']       = ("file:/afs/cern.ch/user/s/sani/eos/cms/store/group/phys_higgs/cmshgg/sethzenz/flashgg/RunIISpring15-ReMiniAOD-BetaV7-25ns/Spring15BetaV7/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISpring15-ReMiniAOD-BetaV7-25ns-Spring15BetaV7-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151021_151505/0000/myMicroAODOutputFile_1.root")
 
     myoptions['OUTPUT_FILE_NAME']      = "TnPTree_mc.root"
-    myoptions['TnPPATHS']              = cms.vstring("HLT_Ele22_eta2p1_WP75_Gsf_v*")
-    myoptions['TnPHLTTagFilters']      = cms.vstring("hltSingleEle22eta2p1WP75GsfTrackIsoFilter")
+    myoptions['TnPPATHS']              = cms.vstring("HLT_Ele22_eta2p1_WP75_Gsf_v*")                                                      
+    myoptions['TnPHLTTagFilters']      = cms.vstring("hltSingleEle22WP75GsfTrackIsoFilter")#hltEle22WP75L1IsoEG20erTau20erGsfTrackIsoFilter")
     myoptions['TnPHLTProbeFilters']    = cms.vstring()
     myoptions['HLTFILTERTOMEASURE']    = cms.vstring("")
     myoptions['GLOBALTAG']             = '74X_mcRun2_asymptotic_v2'
     myoptions['EVENTSToPROCESS']       = cms.untracked.VEventRange()
 else:
-    myoptions['INPUT_FILE_NAME']       = ("file:/afs/cern.ch/user/s/sani/eos//cms/store/group/phys_higgs/cmshgg/sethzenz/flashgg/RunIISpring15-ReMiniAOD-BetaV7-25ns/Spring15BetaV7/DoubleEG/RunIISpring15-ReMiniAOD-BetaV7-25ns-Spring15BetaV7-v0-Run2015D-05Oct2015-v1/151021_151712/0000/myMicroAODOutputFile_1.root")
+    myoptions['INPUT_FILE_NAME']       = (
+        "file:/afs/cern.ch/user/s/sani/eos//cms/store/group/phys_higgs/cmshgg/sethzenz/flashgg/RunIISpring15-ReMiniAOD-BetaV7-25ns/Spring15BetaV7/DoubleEG/RunIISpring15-ReMiniAOD-BetaV7-25ns-Spring15BetaV7-v0-Run2015D-05Oct2015-v1/151021_151712/0000/myMicroAODOutputFile_1.root",
+        )
     myoptions['OUTPUT_FILE_NAME']      = "TnPTree_data.root"
     myoptions['TnPPATHS']              =  cms.vstring("HLT_Ele22_eta2p1_WPLoose_Gsf_v*")
     myoptions['TnPHLTTagFilters']      =  cms.vstring("hltEle22WPLooseL1SingleIsoEG20erGsfTrackIsoFilter")
@@ -91,7 +93,7 @@ else:
 ###################################################################
 
 setModules(process, myoptions)
-from PhysicsTools.TagAndProbe.treeContentPhotons_cfi import *
+from flashgg.Validation.treeContentPhotons_cfi import *
 
 process.load("Configuration.StandardSequences.MagneticField_AutoFromDBCurrent_cff")
 process.load("Configuration.Geometry.GeometryRecoDB_cff")
@@ -116,7 +118,7 @@ process.maxEvents = cms.untracked.PSet( input = myoptions['MAXEVENTS'])
 ## ID
 ###################################################################
 
-from PhysicsTools.TagAndProbe.photonIDModules_cfi import *
+from flashgg.Validation.photonIDModules_cfi import *
 setIDs(process, myoptions)
 
 ###################################################################
@@ -146,8 +148,8 @@ process.allTagsAndProbes *= process.tagTightRECO
 
 process.mc_sequence = cms.Sequence()
 
-if (isMC):
-    process.mc_sequence *= (process.McMatchTag + process.McMatchRECO)
+#if (isMC):
+#    process.mc_sequence *= (process.McMatchTag + process.McMatchRECO)
 
 ##########################################################################
 ## TREE MAKER OPTIONS
@@ -160,7 +162,7 @@ if (not isMC):
 process.PhotonToRECO = cms.EDAnalyzer("TagProbeFitTreeProducer",
                                       mcTruthCommonStuff, CommonStuffForPhotonProbe,
                                       tagProbePairs = cms.InputTag("tagTightRECO"),
-                                      arbitration   = cms.string("None"),
+                                      arbitration   = cms.string("Random2"),
                                       flags         = cms.PSet(passingPresel  = cms.InputTag("goodPhotonProbesPreselection"),
                                                                passingIDMVA   = cms.InputTag("goodPhotonProbesIDMVA"),
                                                                ),                                               
@@ -168,11 +170,15 @@ process.PhotonToRECO = cms.EDAnalyzer("TagProbeFitTreeProducer",
                                       )
 
 if (isMC):
-    process.PhotonToRECO.probeMatches  = cms.InputTag("McMatchRECO")
+    #process.PhotonToRECO.probeMatches  = cms.InputTag("McMatchRECO")
     process.PhotonToRECO.eventWeight   = cms.InputTag("generator")
     process.PhotonToRECO.PUWeightSrc   = cms.InputTag("pileupReweightingProducer","pileupWeights")
-    process.PhotonToRECO.variables.Pho_dRTau  = cms.InputTag("GsfDRToNearestTauProbe")
-    process.PhotonToRECO.tagVariables.probe_dRTau    = cms.InputTag("GsfDRToNearestTauProbe")
+    process.PhotonToRECO.genParticles  = cms.InputTag("flashggPrunedGenParticles")
+    process.PhotonToRECO.useTauDecays  = cms.bool(False)
+    process.PhotonToRECO.pdgId  = cms.int32(11)
+    process.PhotonToRECO.checkCharge  = cms.bool(False)
+    #process.PhotonToRECO.variables.Pho_dRTau  = cms.InputTag("GsfDRToNearestTauProbe")
+    #process.PhotonToRECO.tagVariables.probe_dRTau    = cms.InputTag("GsfDRToNearestTauProbe")
 
 process.tree_sequence = cms.Sequence(process.PhotonToRECO)
 
@@ -201,11 +207,11 @@ if (isMC):
         process.sampleInfo +
         process.hltFilter +
         process.pho_sequence + 
+        process.mc_sequence + 
         process.allTagsAndProbes +
         #process.pileupReweightingProducer +
-        process.mc_sequence + 
-        process.GsfDRToNearestTauProbe + 
-        process.GsfDRToNearestTauTag + 
+        #process.GsfDRToNearestTauProbe + 
+        #process.GsfDRToNearestTauTag + 
         process.tree_sequence
         )
 else:
@@ -214,8 +220,8 @@ else:
         process.sampleInfo +
         process.hltFilter +
         process.pho_sequence + 
-        process.allTagsAndProbes +
         process.mc_sequence +
+        process.allTagsAndProbes +
         process.tree_sequence
         )
 
@@ -228,6 +234,6 @@ process.TFileService = cms.Service("TFileService",
 from flashgg.MetaData.JobConfig import JobConfig
 
 customize = JobConfig(crossSections=["$CMSSW_BASE/src/flashgg/MetaData/data/cross_sections.json"])
-customize.setDefault("maxEvents", 100)
+customize.setDefault("maxEvents", -1)
 customize.setDefault("targetLumi", 1)
 customize(process)

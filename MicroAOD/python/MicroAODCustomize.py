@@ -60,7 +60,12 @@ class MicroAODCustomize(object):
                                VarParsing.VarParsing.varType.int,
                                'bunchSpacing'
                                )
-
+        #self.options.register('isMC',
+        #                      True,
+        #                      VarParsing.VarParsing.multiplicity.singleton,
+        #                      VarParsing.VarParsing.varType.bool,
+        #                      'Compute MC efficiencies'
+        #                      )
 
         self.parsed_ = False
 
@@ -76,7 +81,7 @@ class MicroAODCustomize(object):
         self.customize(process)
         self.userCustomize(process)
     
-    # empty default definition for userCutomize
+    # empty default definition for userCustomize
     def userCustomize(self,process):
         pass 
 
@@ -219,6 +224,16 @@ class MicroAODCustomize(object):
         process.flashggPhotons.photonIdMVAweightfile_EB = cms.FileInPath("flashgg/MicroAOD/data/MVAweights_Spring15_50ns_barrel.xml")
         process.flashggPhotons.photonIdMVAweightfile_EE = cms.FileInPath("flashgg/MicroAOD/data/MVAweights_Spring15_50ns_endcap.xml")
 
+
+    def customizeTnP(self, process):
+        self.parse()
+        if self.processType == "data":
+            self.customizeData(process)
+        elif self.processType == "signal":
+            self.customizeSignal(process)
+        if self.processType == "background":
+            self.customizeBackground(process)
+  
 
 # customization object
 customize = MicroAODCustomize()

@@ -1,6 +1,8 @@
 import FWCore.ParameterSet.VarParsing as VarParsing
 from flashgg.MetaData.samples_utils import SamplesManager
 
+import sys
+
 class JobConfig(object):
     
     def __init__(self,*args,**kwargs):
@@ -95,6 +97,12 @@ class JobConfig(object):
                                VarParsing.VarParsing.multiplicity.singleton, # singleton or list
                                VarParsing.VarParsing.varType.string,          # string, int, or float
                                "processType")
+        self.options.register( "isMC",
+                               True,
+                               VarParsing.VarParsing.multiplicity.singleton,
+                               VarParsing.VarParsing.varType.bool,
+                               "Compute MC efficiencies"
+                               )
         
         self.parsed = False
 
@@ -145,14 +153,21 @@ class JobConfig(object):
             else:
                 sys.exit(1)
             
-
+        import sys        
         files = self.inputFiles
+        print "MATTEO files", files
+
         if self.dataset and self.dataset != "":
             name,xsec,totEvents,files,maxEvents = self.dataset
             self.maxEvents = int(maxEvents)
-            
+            print "MATTEO", self.maxEvents
             processId = self.getProcessId(name)
             self.processId = processId
+
+            if ("itype" in xsec):
+                for name,obj in process.__dict__.iteritems():
+                    if hasattr(obj, "sampleIndex"):
+                        obj.sampleIndex = xsec["itype"]
             
             isdata = self.processType == "data"
             if isdata or self.targetLumi > 0.:
@@ -185,7 +200,6 @@ class JobConfig(object):
                 import FWCore.PythonUtilities.LumiList as LumiList
                 process.source.lumisToProcess = LumiList.LumiList(filename = self.lumiMask).getVLuminosityBlockRange()
                 
-            
         flist = []
         for f in files:
             if len(f.split(":",1))>1:
@@ -201,21 +215,23 @@ class JobConfig(object):
             else:
                 ## process.source.fileNames.extend([ str("%s%s" % (self.filePrepend,f)) for f in  files])
                 process.source.fileNames = flist
- 
+                
         ## fwlite
         if isFwlite:
+            print "MATTEO", isFwlite
             process.fwliteInput.maxEvents = self.maxEvents
             process.fwliteOutput.fileName = self.outputFile
         ## full framework
         else:
             process.maxEvents.input = self.maxEvents
-            
+            print "MATTEO", self.maxEvents
             if hasOutput:
                 process.out.fileName = self.outputFile
 
             if hasTFile:
                 process.TFileService.fileName = tfile
-    
+                print "MATTEO", hasTFile
+
         if self.tfileOut:
             if hasTFile:
                 print "Could not run with both TFileService and custom tfileOut"

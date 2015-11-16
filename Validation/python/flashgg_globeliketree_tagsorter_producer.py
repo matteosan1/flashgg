@@ -7,31 +7,61 @@ process.load("FWCore.MessageService.MessageLogger_cfi")
 
 process.load("Configuration.StandardSequences.GeometryDB_cff")
 process.load("Configuration.StandardSequences.MagneticField_cff")
-process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_cff")
-process.GlobalTag.globaltag = 'POSTLS170_V5::All'
+process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_condDBv2_cff")
+process.GlobalTag.globaltag = 'MCRUN2_74_V9A'
 
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32( -1) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(2) )
 process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32( 1000 )
 
-#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/mc/Spring14miniaod/GluGluToHToGG_M-125_13TeV-powheg-pythia6/MINIAODSIM/PU20bx25_POSTLS170_V5-v2/00000/24926621-F11C-E411-AB9A-02163E008D0B.root"))
-#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/mc/Spring14miniaod/TTbarH_HToGG_M-125_13TeV_amcatnlo-pythia8-tauola/MINIAODSIM/PU20bx25_POSTLS170_V5-v1/00000/049C0F9C-E61E-E411-9388-D8D385AE8466.root"))                                                                                                                            
-process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/group/phys_higgs/cmshgg/sethzenz/flashgg/HggPhys14/Phys14MicroAODV2/VBF_HToGG_M-125_13TeV-powheg-pythia6/HggPhys14-Phys14MicroAODV2-v0-Phys14DR-PU20bx25_PHYS14_25_V1-v1/150210_160130/0000/myMicroAODOutputFile_1.root"))
+process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring(
+"/store/group/phys_higgs/cmshgg/sethzenz/flashgg/RunIISpring15-ReMiniAOD-BetaV7-25ns/Spring15BetaV7//DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISpring15-ReMiniAOD-BetaV7-25ns-Spring15BetaV7-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151021_151505/0000/myMicroAODOutputFile_99.root", 
+#"/store/group/phys_higgs/cmshgg/sethzenz/flashgg/RunIISpring15-ReMiniAOD-BetaV7-25ns/Spring15BetaV7/DoubleEG/RunIISpring15-ReMiniAOD-BetaV7-25ns-Spring15BetaV7-v0-Run2015D-05Oct2015-v1/151021_151712/0000/myMicroAODOutputFile_99.root"
+))
+
 
 process.load("flashgg/MicroAOD/flashggMicroAODSequence_cff")
 process.load("flashgg/Taggers/flashggTagSequence_cfi")
+
+process.flashggTagSorter.massCutUpper=cms.untracked.double(180.)
+process.flashggTagSorter.massCutLower=cms.untracked.double(0.)
+process.flashggUntagged.Boundaries=cms.untracked.vdouble(-99999.,0.31,0.62,0.86,0.98)
+
 process.load("flashgg/Taggers/flashggTagTester_cfi")
 
+from flashgg.MicroAOD.flashggJets_cfi import flashggBTag, maxJetCollections
+
+flashggUnpackedJets = cms.EDProducer("FlashggVectorVectorJetUnpacker",
+                                     JetsTag = cms.InputTag("flashggFinalJets"),
+                                     NCollections = cms.uint32(maxJetCollections)
+                                     )
+
+UnpackedJetCollectionVInputTag = cms.VInputTag()
+for i in range(0,maxJetCollections):
+    UnpackedJetCollectionVInputTag.append(cms.InputTag('flashggUnpackedJets',str(i)))
+
+
 process.commissioning = cms.EDAnalyzer('FlashggFlashggTreeMakerWithTagSorter',
-                                       VertexTag=cms.untracked.InputTag('offlineSlimmedPrimaryVertices'),
-                                       VertexCandidateMapTagDz=cms.InputTag('flashggVertexMapUnique'),
+                                       genEventInfoName = cms.untracked.InputTag('generator'),
+                                       VertexTag = cms.untracked.InputTag('offlineSlimmedPrimaryVertices'),
+                                       VertexCandidateMapTagDz = cms.InputTag('flashggVertexMapUnique'),
                                        VertexCandidateMapTagAOD = cms.InputTag('flashggVertexMapValidator'),
-                                       JetTagDz=cms.InputTag("flashggJets"),
-                                       rhoFixedGridCollection=cms.InputTag('fixedGridRhoAll')
-)
+                                       inputTagJets = UnpackedJetCollectionVInputTag,
+                                       DiPhotonTag = cms.InputTag('flashggDiPhotons'),
+                                       rhoFixedGridCollection = cms.InputTag('fixedGridRhoAll'),
+                                       #PileUpTag = cms.untracked.InputTag( "addPileupInfo"),
+                                       lumiWeight = cms.double(1.0),
+                                       sampleIndex = cms.int32(-1000)
+                                       )
 
 process.TFileService = cms.Service("TFileService",
-                                   fileName = cms.string("globeLikeTree_VBF_HToGG_M-125_13TeV-powheg-pythia6_HggPhys14MicroAODV2-PU20bx25_PHYS14_25_V1-v1.root")
+                                   fileName = cms.string("~/mounteos/cms/store/group/phys_higgs/soffi/flashgg/testMonoHLivia/Phys14MicroAODV3-55-gc1f8d91/Higgs_scalar/testMonoHLivia-Phys14MicroAODV3-55-gc1f8d91-v0-soffi-Higgs_scalar_nohdecay_gg_10GeV_13TeV_MINIAODSIM_v6-7d492cb64f2cdaff326f939f96e45c96/150703_144622/0000/myMicroAODOutputFile_10.root")
 )
 
-#process.p = cms.Path(process.flashggMicroAODSequence*process.flashggTagSequence*process.flashggTagTester)
 process.p = cms.Path(process.flashggTagSequence*process.commissioning)
+
+from flashgg.MetaData.JobConfig import JobConfig
+
+customize = JobConfig(crossSections=["$CMSSW_BASE/src/flashgg/MetaData/data/cross_sections.json"])
+customize.setDefault("maxEvents", 100)
+customize.setDefault("targetLumi", 1)
+customize(process)

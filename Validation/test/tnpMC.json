@@ -1,0 +1,8 @@
+{
+    "processes" : {
+        "mc" : [
+	"/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+	]
+        },
+     "cmdLine" : "campaign=RunIISpring15-ReMiniAOD-BetaV7-25ns targetLumi=1e+3"
+}

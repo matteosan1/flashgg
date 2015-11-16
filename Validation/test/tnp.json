@@ -1,0 +1,8 @@
+{
+    "processes" : {
+        "data" : [
+	"/SingleElectron/sethzenz-RunIISpring15-Prompt-BetaV7-25ns-Spring15BetaV7-v0-Run2015D-PromptReco-v4-270c398500dd950e9be0bd5b12d77f83/USER"
+	]
+        },
+     "cmdLine" : "campaign=RunIISpring15-ReMiniAOD-BetaV7-25ns targetLumi=1e+3"
+}

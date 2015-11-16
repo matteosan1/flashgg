@@ -295,7 +295,11 @@ class JobsManager(object):
                     print  "splitting in (up to) %d jobs\n checking how many are needed... " % njobs, 
                     dnjobs = 0
                     dargs = jobargs+shell_args("nJobs=%d" % (njobs)) 
+                    #print options.outputDir,dsetName
+                    print "python %s" % pyjob,dargs+shell_args("dryRun=1 getMaxJobs=1 dumpPython=%s.py" % os.path.join(options.outputDir,dsetName) )
                     ret,out = parallel.run("python %s" % pyjob,dargs+shell_args("dryRun=1 getMaxJobs=1 dumpPython=%s.py" % os.path.join(options.outputDir,dsetName) ),interactive=True)[2]
+                    print ret
+                    print out
                     maxJobs = self.getMaxJobs(out)
                     print maxJobs
                     if maxJobs < 0:
