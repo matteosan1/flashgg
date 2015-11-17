@@ -1,0 +1,8 @@
+{
+    "processes" : {
+	"DiPhoton" : [
+        "/DiPhotonJetsBox_MGG-80toInf_13TeV-Sherpa"
+	]
+     },
+     "cmdLine" : "campaign=RunIISpring15-ReMiniAOD-BetaV7-25ns targetLumi=1e+3"	
+}

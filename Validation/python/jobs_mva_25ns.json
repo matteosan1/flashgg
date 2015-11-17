@@ -1,0 +1,37 @@
+{
+    "processes" : {
+        "DYJetsToLL" : [
+	"/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8"
+	],
+        "GJets" : [
+        "/GJet_Pt-20to40_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8",
+        "/GJet_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8"
+        ],    	
+	"QCD" : [
+	"/QCD_Pt-30to40_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8",
+	"/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCUETP8M1_13TeV_Pythia8",
+	"/QCD_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8"
+        ],    
+	"DiPhoton" : [
+        "/DiPhotonJetsBox_MGG-80toInf_13TeV-Sherpa"
+	],
+	"signal" : [
+        "/ttHJetToGG_M120_13TeV_amcatnloFXFX_madspin_pythia8",
+        "/ttHJetToGG_M125_13TeV_amcatnloFXFX_madspin_pythia8",
+        "/ttHJetToGG_M130_13TeV_amcatnloFXFX_madspin_pythia8",
+        "/GluGluHToGG_M-120_13TeV_powheg_pythia8",
+        "/GluGluHToGG_M-125_13TeV_powheg_pythia8",
+        "/GluGluHToGG_M-130_13TeV_powheg_pythia8",
+        "/VBFHToGG_M-120_13TeV_powheg_pythia8",	
+        "/VBFHToGG_M-125_13TeV_powheg_pythia8",
+        "/VBFHToGG_M-130_13TeV_powheg_pythia8",
+        "/VHToGG_M120_13TeV_amcatnloFXFX_madspin_pythia8",
+        "/VHToGG_M125_13TeV_amcatnloFXFX_madspin_pythia8",
+        "/VHToGG_M130_13TeV_amcatnloFXFX_madspin_pythia8"
+	],
+        "data" : [
+        "/DoubleEG/sethzenz-RunIISpring15-ReMiniAOD-BetaV7-25ns-Spring15BetaV7-v0-Run2015C_25ns-05Oct2015-v1-abb8a7e501c7a3475a3187a9efa3732c/USER"
+        ]
+     },
+     "cmdLine" : "campaign=RunIISpring15-ReMiniAOD-BetaV7-25ns targetLumi=1e+3"	
+}

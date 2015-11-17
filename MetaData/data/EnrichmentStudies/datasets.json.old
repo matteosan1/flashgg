@@ -1,0 +1,1422 @@
+{
+    "/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/sani-EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1-6987315dc625a5fb081e2002a65ef1de/USER": {
+        "files": [
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 92943
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 40396
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 79917
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 90171
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 92655
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 98863
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 85528
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 46916
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 98220
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 88666
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 93265
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 96342
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 89644
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 90499
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_28.root", 
+                "nevents": 93416
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_29.root", 
+                "nevents": 83979
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_32.root", 
+                "nevents": 93565
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_33.root", 
+                "nevents": 92270
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_34.root", 
+                "nevents": 90526
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_35.root", 
+                "nevents": 93460
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_36.root", 
+                "nevents": 87610
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_37.root", 
+                "nevents": 90144
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_38.root", 
+                "nevents": 89967
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_39.root", 
+                "nevents": 83984
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 93219
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_40.root", 
+                "nevents": 88259
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_41.root", 
+                "nevents": 97818
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_42.root", 
+                "nevents": 84089
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_43.root", 
+                "nevents": 99035
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_44.root", 
+                "nevents": 99016
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_45.root", 
+                "nevents": 89823
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_46.root", 
+                "nevents": 88421
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_47.root", 
+                "nevents": 82074
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_48.root", 
+                "nevents": 90433
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_49.root", 
+                "nevents": 84535
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 94840
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_50.root", 
+                "nevents": 96286
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_51.root", 
+                "nevents": 85491
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_52.root", 
+                "nevents": 93548
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_53.root", 
+                "nevents": 86831
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_54.root", 
+                "nevents": 87229
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_55.root", 
+                "nevents": 92661
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_56.root", 
+                "nevents": 94882
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_57.root", 
+                "nevents": 53292
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_58.root", 
+                "nevents": 92064
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_59.root", 
+                "nevents": 49626
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 95794
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 92001
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 75017
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 79595
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 9248
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 93496
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 88378
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223752/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 59154
+            }
+        ], 
+        "vetted": true
+    }, 
+    "/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/sani-EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1-6987315dc625a5fb081e2002a65ef1de/USER": {
+        "files": [
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 91913
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_100.root", 
+                "nevents": 89046
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_101.root", 
+                "nevents": 80224
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_102.root", 
+                "nevents": 78951
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_103.root", 
+                "nevents": 95195
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_104.root", 
+                "nevents": 78821
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_105.root", 
+                "nevents": 94325
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_106.root", 
+                "nevents": 76966
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_107.root", 
+                "nevents": 83843
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_108.root", 
+                "nevents": 93792
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_109.root", 
+                "nevents": 89024
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 86583
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_110.root", 
+                "nevents": 84529
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_111.root", 
+                "nevents": 89863
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_112.root", 
+                "nevents": 86076
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_113.root", 
+                "nevents": 88574
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_117.root", 
+                "nevents": 87602
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_118.root", 
+                "nevents": 82689
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_119.root", 
+                "nevents": 82408
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 91068
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_120.root", 
+                "nevents": 92930
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_121.root", 
+                "nevents": 94709
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_122.root", 
+                "nevents": 96859
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_123.root", 
+                "nevents": 49612
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 88318
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 83000
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 81419
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 84193
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 92058
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 92427
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 89442
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 92028
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 85587
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 33444
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 80405
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 94998
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_28.root", 
+                "nevents": 90766
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_29.root", 
+                "nevents": 87300
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_30.root", 
+                "nevents": 89158
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_31.root", 
+                "nevents": 84140
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_32.root", 
+                "nevents": 83616
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_33.root", 
+                "nevents": 91066
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_34.root", 
+                "nevents": 88920
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_35.root", 
+                "nevents": 89288
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_36.root", 
+                "nevents": 83379
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_37.root", 
+                "nevents": 79686
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_38.root", 
+                "nevents": 86420
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_39.root", 
+                "nevents": 88429
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_40.root", 
+                "nevents": 87398
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_41.root", 
+                "nevents": 75167
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_42.root", 
+                "nevents": 83736
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_43.root", 
+                "nevents": 92481
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_44.root", 
+                "nevents": 96724
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_45.root", 
+                "nevents": 80888
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_46.root", 
+                "nevents": 80953
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_47.root", 
+                "nevents": 86499
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_48.root", 
+                "nevents": 96427
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_49.root", 
+                "nevents": 95485
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_50.root", 
+                "nevents": 82093
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_51.root", 
+                "nevents": 99403
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_52.root", 
+                "nevents": 86703
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_53.root", 
+                "nevents": 98211
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_54.root", 
+                "nevents": 88394
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_55.root", 
+                "nevents": 84795
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_56.root", 
+                "nevents": 84093
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_57.root", 
+                "nevents": 89201
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_58.root", 
+                "nevents": 81666
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_59.root", 
+                "nevents": 89332
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 98817
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_60.root", 
+                "nevents": 90983
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_61.root", 
+                "nevents": 93168
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_62.root", 
+                "nevents": 80160
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_63.root", 
+                "nevents": 92656
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_64.root", 
+                "nevents": 86046
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_65.root", 
+                "nevents": 84183
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_66.root", 
+                "nevents": 75307
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_67.root", 
+                "nevents": 85807
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_68.root", 
+                "nevents": 95783
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_69.root", 
+                "nevents": 82647
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 97224
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_71.root", 
+                "nevents": 88374
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_72.root", 
+                "nevents": 86121
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_73.root", 
+                "nevents": 76338
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_74.root", 
+                "nevents": 79088
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_76.root", 
+                "nevents": 98396
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 97108
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_87.root", 
+                "nevents": 86603
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_88.root", 
+                "nevents": 90730
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 89664
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_90.root", 
+                "nevents": 93151
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_92.root", 
+                "nevents": 87739
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_93.root", 
+                "nevents": 81735
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_94.root", 
+                "nevents": 84234
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_95.root", 
+                "nevents": 89161
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_97.root", 
+                "nevents": 93715
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_98.root", 
+                "nevents": 80107
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_99.root", 
+                "nevents": 80301
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 5966
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_114.root", 
+                "nevents": 86462
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_115.root", 
+                "nevents": 89528
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_116.root", 
+                "nevents": 41392
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 72405
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 85265
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 37990
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 70523
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 64261
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 76001
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_70.root", 
+                "nevents": 76226
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_75.root", 
+                "nevents": 87576
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_77.root", 
+                "nevents": 89365
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_78.root", 
+                "nevents": 76592
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_79.root", 
+                "nevents": 85163
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_80.root", 
+                "nevents": 89377
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_81.root", 
+                "nevents": 88883
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_82.root", 
+                "nevents": 86514
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_83.root", 
+                "nevents": 84693
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_84.root", 
+                "nevents": 80909
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_86.root", 
+                "nevents": 85160
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_89.root", 
+                "nevents": 95616
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_91.root", 
+                "nevents": 90218
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_223830/0000/myMicroAODOutputFile_96.root", 
+                "nevents": 87598
+            }
+        ], 
+        "vetted": true
+    }, 
+    "/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/sani-EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1-6987315dc625a5fb081e2002a65ef1de/USER": {
+        "files": [
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 96686
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 94639
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 88499
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 92028
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 93180
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 84217
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 89393
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 98260
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 96332
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 93613
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 94737
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 99319
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 97279
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081253/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 95419
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_090352/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 96550
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_090352/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 98260
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_090352/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 97374
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_090352/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 94737
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_090352/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 97279
+            }
+        ], 
+        "vetted": true
+    }, 
+    "/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/sani-EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1-6987315dc625a5fb081e2002a65ef1de/USER": {
+        "files": [
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 88975
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 90876
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 86946
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 86676
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 77652
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 93162
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 94049
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 89934
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 89210
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 88555
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 95483
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 91364
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 87155
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 85948
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 72375
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 87447
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 86828
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 85232
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 88722
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 77921
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_28.root", 
+                "nevents": 98209
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_29.root", 
+                "nevents": 74330
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 97235
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_30.root", 
+                "nevents": 89464
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_31.root", 
+                "nevents": 80152
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_32.root", 
+                "nevents": 72016
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_33.root", 
+                "nevents": 93880
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_34.root", 
+                "nevents": 95805
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_35.root", 
+                "nevents": 93520
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_36.root", 
+                "nevents": 74773
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_37.root", 
+                "nevents": 90521
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_38.root", 
+                "nevents": 93884
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_39.root", 
+                "nevents": 94777
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 84979
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_40.root", 
+                "nevents": 65456
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_41.root", 
+                "nevents": 89101
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_42.root", 
+                "nevents": 89662
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_43.root", 
+                "nevents": 80837
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_44.root", 
+                "nevents": 88368
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_45.root", 
+                "nevents": 81274
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_46.root", 
+                "nevents": 90665
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_47.root", 
+                "nevents": 82533
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_48.root", 
+                "nevents": 83059
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_49.root", 
+                "nevents": 79783
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 76758
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_50.root", 
+                "nevents": 89799
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_51.root", 
+                "nevents": 81553
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_52.root", 
+                "nevents": 84259
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_53.root", 
+                "nevents": 93753
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_54.root", 
+                "nevents": 93066
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_55.root", 
+                "nevents": 92715
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_56.root", 
+                "nevents": 44376
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 81563
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 92782
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 84355
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224031/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 92460
+            }
+        ], 
+        "vetted": true
+    }, 
+    "/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/sani-EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1-6987315dc625a5fb081e2002a65ef1de/USER": {
+        "files": [
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 85113
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 74891
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_30.root", 
+                "nevents": 93321
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 89063
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 84521
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 87090
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 94272
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151112_224133/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 92922
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 56594
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 90835
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 84920
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 82129
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 89903
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 46414
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 87752
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 89802
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 91110
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 93378
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 84896
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 78077
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 83344
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_28.root", 
+                "nevents": 89914
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_29.root", 
+                "nevents": 95526
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 42528
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_31.root", 
+                "nevents": 43853
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 96563
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 85236
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 86093
+            }, 
+            {
+                 
+                "name": "/store/user/sani/flashgg/EnrichmentStudies/Spring15BetaV7_MetaV1/GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/EnrichmentStudies-Spring15BetaV7_MetaV1-v0-RunIISpring15MiniAODv2-74X_mcRun2_asymptotic_v2-v1/151113_081510/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 89543
+            }
+        ], 
+        "vetted": true
+    }
+}

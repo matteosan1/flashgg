@@ -102,9 +102,9 @@ private:
     Float_t nvtx;
     Float_t rho;
     Double_t gen_weight;
-    Float_t xsec_weight;
-    Float_t full_weight;
-    Float_t pu_weight;
+    Double_t xsec_weight;
+    Double_t full_weight;
+    Double_t pu_weight;
     Float_t pu_n;
     Float_t mass;
     Float_t dipho_pt;
@@ -242,7 +242,7 @@ FlashggTreeMakerWithTagSorter::FlashggTreeMakerWithTagSorter( const edm::Paramet
     METToken_( consumes<View<pat::MET> >( iConfig.getUntrackedParameter<InputTag> ( "METTag", InputTag( "slimmedMETs" ) ) ) ),
     PileUpToken_( consumes<View<PileupSummaryInfo> >( iConfig.getUntrackedParameter<InputTag> ( "PileUpTag", InputTag( "slimmedAddPileupInfo" ) ) ) ),
     itype( iConfig.getParameter<int> ( "sampleIndex" ) ),
-    xsec_weight( iConfig.getParameter<double> ( "lumiWeight" ) ),
+    full_weight( iConfig.getParameter<double> ( "lumiWeight" ) ),
     TagSorterToken_( consumes<edm::OwnVector<flashgg::DiPhotonTagBase> >( iConfig.getUntrackedParameter<InputTag> ( "TagSorter",
                      InputTag( "flashggTagSorter" ) ) ) )
 {
@@ -422,8 +422,7 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
             //return;
             //}
             gen_weight = genEventInfoProduct->weight();
-            xsec_weight = xsec_weight*gen_weight;
-            //std::cout << "geweight" << gen_weight << std::endl;
+            xsec_weight = full_weight*gen_weight;
             pu_weight = -1;
             pu_n = 0;
 
@@ -695,10 +694,10 @@ void FlashggTreeMakerWithTagSorter::beginJob() {
     flashggTreeWithTagSorter->Branch( "itype", &itype, "itype/I" );
     flashggTreeWithTagSorter->Branch( "nvtx", &nvtx, "nvtx/F" );
     flashggTreeWithTagSorter->Branch( "rho", &rho, "rho/F" );
-    flashggTreeWithTagSorter->Branch( "xsec_weight", &xsec_weight, "xsec_weight/F" );
+    flashggTreeWithTagSorter->Branch( "xsec_weight", &xsec_weight, "xsec_weight/D" );
     flashggTreeWithTagSorter->Branch( "gen_weight", &gen_weight, "gen_weight/D" );
     //flashggTreeWithTagSorter->Branch( "full_weight", &full_weight, "full_weight/F" );
-    flashggTreeWithTagSorter->Branch( "pu_weight", &pu_weight, "pu_weight/F" );
+    flashggTreeWithTagSorter->Branch( "pu_weight", &pu_weight, "pu_weight/D" );
     flashggTreeWithTagSorter->Branch( "pu_n", &pu_n, "pu_n/F" );
     flashggTreeWithTagSorter->Branch( "mass", &mass, "mass/F" );
     flashggTreeWithTagSorter->Branch( "dipho_pt", &dipho_pt, "dipho_pt/F" );
