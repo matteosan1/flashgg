@@ -6,35 +6,38 @@
 #include "FWCore/Framework/interface/Event.h"
 #include "FWCore/Framework/interface/MakerMacros.h"
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
+#include "FWCore/Framework/interface/LuminosityBlock.h"
 
 #include "DataFormats/Common/interface/Handle.h"
-#include "DataFormats/Common/interface/MergeableCounter.h"
 #include "DataFormats/Common/interface/MergeableDouble.h"
-#include "DataFormats/Common/interface/MergeableHisto.h"
-
-#include <vector>
+#include "DataFormats/Common/interface/MergeableCounter.h"
 
 #include <TTree.h>
-#include <TH1F.h>
 
 namespace tnp {
-  class FlashggSampleInfoTree : public edm::EDAnalyzer, boost::noncopyable {
+  class FlashggSampleInfoTree : public edm::one::EDProducer<edm::one::WatchLuminosityBlocks, 
+    edm::EndLuminosityBlockProducer> {
   public:
     explicit FlashggSampleInfoTree(const edm::ParameterSet& config);
     ~FlashggSampleInfoTree() {};
 
-  private:
-    void analyze(const edm::Event&, const edm::EventSetup&) {};
+    virtual void beginLuminosityBlock(const edm::LuminosityBlock &, const edm::EventSetup&) override;
+    virtual void endLuminosityBlock(edm::LuminosityBlock const&, const edm::EventSetup&) override;
+    virtual void endLuminosityBlockProduce(edm::LuminosityBlock &, const edm::EventSetup&) override;
+    
+    virtual void produce(edm::Event &, const edm::EventSetup&) override;
     void endJob();
-    virtual void endLuminosityBlock(edm::LuminosityBlock const& iLumi, edm::EventSetup const& iSetup) override;
-        
+
+  private:
+    //edm::EDGetTokenT<GenEventInfoProduct> weightSrcToken_;
+    //edm::EDGetTokenT<reco::VertexCollection> recVtxsToken_;
+    
     TTree * addTree_;
-    double totalGenWeight_;
+    double sumWeight_;
     double nEvents_; 
-    float min_;
-    float max_;
-    std::vector<float> values_;
-    TH1F* hnPU;    
+
+    double totGenWeight_;
+    double totNEvents_; 
   };
 }
 

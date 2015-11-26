@@ -50,7 +50,14 @@ process.commissioning = cms.EDAnalyzer('FlashggFlashggTreeMakerWithTagSorter',
                                        rhoFixedGridCollection = cms.InputTag('fixedGridRhoAll'),
                                        #PileUpTag = cms.untracked.InputTag( "addPileupInfo"),
                                        lumiWeight = cms.double(1.0),
-                                       sampleIndex = cms.int32(-1000)
+                                       sampleIndex = cms.int32(-1000),
+                                       #processId = cms.string("poppo"),                                       
+                                       puReWeight = cms.bool(True),
+                                       dataPu = cms.vdouble(),
+                                       mcPu = cms.vdouble(),
+                                       #puBins = cms.int32(50),
+                                       #minpu = cms.double(0),
+                                       #maxpu = cms.double(100),
                                        )
 
 process.TFileService = cms.Service("TFileService",
@@ -62,6 +69,6 @@ process.p = cms.Path(process.flashggTagSequence*process.commissioning)
 from flashgg.MetaData.JobConfig import JobConfig
 
 customize = JobConfig(crossSections=["$CMSSW_BASE/src/flashgg/MetaData/data/cross_sections.json"])
-customize.setDefault("maxEvents", 100)
-customize.setDefault("targetLumi", 1)
+#customize.setDefault("maxEvents", 100)
+#customize.setDefault("targetLumi", 1)
 customize(process)

@@ -29,11 +29,11 @@
 	"GJet_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8" : {"xs":16792.0, "br":0.0514, "kf":1.0, "itype":2},
 	"DiPhotonJetsBox_MGG-80toInf_13TeV-Sherpa" : {"xs":84.0, "br":1, "kf":1.0, "itype":10},
 	"QCD_Pt-30to40_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8"  : {"xs":108000000.0 , "br" : 0.000225,"itype":30},
-	"QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCUETP8M1_13TeV_Pythia8"  : {"xs":54120000.0 , "br" : 0.002,"itype":31},
-	"QCD_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8" : {"xs":162060000.0 , "br" : 0.0016,"itype":32},
+	"QCD_Pt-40toInf_DoubleEMEnriched_MGG-80toInf_TuneCUETP8M1_13TeV_Pythia8"  : {"xs":54120000.0 , "br" : 0.002,"itype":32},
+	"QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCUETP8M1_13TeV_Pythia8" : {"xs":162060000.0 , "br" : 0.0016,"itype":31},
 	"GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8" :  { "xs" : 23100.0, "itype" : 4 },
 	"GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8" : { "xs" : 9110.0,  "itype" : 5 },
 	"GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8" : { "xs" : 2280.0,  "itype" : 6 },
-	"GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8" : { "xs" : 2280.0,  "itype" : 7 },
-	"GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8" : { "xs" : 2280.0,  "itype" : 8 }
+        "GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8" : { "xs" :273.0 , "itype" : 7 },
+        "GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8" : { "xs" :94.5 , "itype" : 8 }
 }

@@ -810,6 +810,7 @@ Commands:
         self.mn.importFromEOS(args)
         
     def run_catimport(self,src,pattern):
+        print pattern
         if ":" in src:
             print src.split(":")
             src = "$CMSSW_BASE/src/%s/MetaData/data/%s/datasets.json" % tuple(src.split(":"))

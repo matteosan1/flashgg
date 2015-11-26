@@ -1,6 +1,9 @@
 import FWCore.ParameterSet.Config as cms
 from FWCore.ParameterSet.VarParsing import VarParsing
-import flashgg.Validation.commonFitPresel as common
+#import flashgg.Validation.commonFitPresel as common
+#import flashgg.Validation.parametricTemplates as common
+import flashgg.Validation.commonFitPreselBkgSyst as common
+
 
 options = VarParsing('analysis')
 options.register(
@@ -124,7 +127,8 @@ process.TnPMeasurement = cms.EDAnalyzer("TagProbeFitTreeAnalyzer",
                                         # defines all the real variables of the probes available in the input tree and intended for use in the efficiencies
                                         Variables = cms.PSet(
         mass = cms.vstring("Tag-Probe Mass", "60.0", "120.0", "GeV/c^{2}"),
-        probe_Pho_et = cms.vstring("Probe E_{T}", "0", "1000", "GeV/c"),
+        tag_Pho_et = cms.vstring("Probe E_{T}", "30", "1000", "GeV/c"),
+        probe_Pho_et = cms.vstring("Probe E_{T}", "20", "1000", "GeV/c"),
         probe_sc_abseta = cms.vstring("Probe #eta", "0", "2.5", ""), 
         probe_Pho_r9 = cms.vstring("Probe #eta", "0", "1", ""), 
         totWeight = cms.vstring("totWeight", "-1000000", "100000000", ""), 
@@ -146,7 +150,7 @@ if (not options.isMC):
     delattr(process.TnPMeasurement, "WeightVariable")
     process.TnPMeasurement.Variables = cms.PSet(
         mass = cms.vstring("Tag-Probe Mass", "60.0", "120.0", "GeV/c^{2}"),
-        probe_Pho_et = cms.vstring("Probe E_{T}", "20", "1000", "GeV/c"),
+        probe_Pho_pt = cms.vstring("Probe E_{T}", "20", "1000", "GeV/c"),
         tag_Pho_pt = cms.vstring("Probe E_{T}", "30", "1000", "GeV/c"),
         probe_sc_abseta = cms.vstring("Probe #eta", "0", "2.5", ""),  
         probe_Pho_r9 = cms.vstring("Probe #eta", "0", "1", ""), 

@@ -227,6 +227,13 @@ private:
     edm::EDGetTokenT<edm::View<flashgg::Photon> >            photonToken_; // SCZ work-in-progress adding this!
     edm::EDGetTokenT<edm::OwnVector<flashgg::DiPhotonTagBase> > TagSorterToken_;
     Double_t totalGenWeight_;
+
+    std::string processID_;
+    bool puReweight_;
+    std::vector<double> puData_;
+    std::vector<double> puMC_;
+    int npu_;
+    double minpu_, maxpu_;
 };
 
 FlashggTreeMakerWithTagSorter::FlashggTreeMakerWithTagSorter( const edm::ParameterSet &iConfig ):
@@ -244,10 +251,22 @@ FlashggTreeMakerWithTagSorter::FlashggTreeMakerWithTagSorter( const edm::Paramet
     itype( iConfig.getParameter<int> ( "sampleIndex" ) ),
     full_weight( iConfig.getParameter<double> ( "lumiWeight" ) ),
     TagSorterToken_( consumes<edm::OwnVector<flashgg::DiPhotonTagBase> >( iConfig.getUntrackedParameter<InputTag> ( "TagSorter",
-                     InputTag( "flashggTagSorter" ) ) ) )
+                                                                                                                    InputTag( "flashggTagSorter" ) ) ) ),
+    //processID_( iConfig.getParameter<std::string> ( "processId" ) ),
+    puReweight_( iConfig.getParameter<bool> ( "puReWeight" ) ),
+    puData_( iConfig.getParameter<std::vector<double> > ( "dataPu" ) ),
+    puMC_  ( iConfig.getParameter<std::vector<double> > ( "mcPu" ) )
 {
     rhoFixedGrid_ = iConfig.getParameter<edm::InputTag>( "rhoFixedGridCollection" );
     totalGenWeight_ = 0.;
+
+    unsigned int nbins = std::min(puData_.size(), puMC_.size());
+    puData_.resize(nbins);
+    puMC_.resize(nbins);
+    auto scl  = std::accumulate(puMC_.begin(), puMC_.end(), 0.) / std::accumulate(puData_.begin(), puData_.end(),0.); // rescale input distribs to unit ara
+    for(size_t ib = 0; ib<puData_.size(); ++ib) {
+        puData_[ib] *= scl / puMC_[ib];
+    }
 }
 
 FlashggTreeMakerWithTagSorter::~FlashggTreeMakerWithTagSorter()
@@ -408,7 +427,7 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
         //std::cout << xsec_weight << std::endl;
         
         gen_weight = 1;
-        pu_weight = -1;
+        pu_weight = 1.;
         pu_n = -1;
         gv_x = -9999.;
         gv_y = -9999.;
@@ -423,17 +442,25 @@ FlashggTreeMakerWithTagSorter::analyze( const edm::Event &iEvent, const edm::Eve
             //}
             gen_weight = genEventInfoProduct->weight();
             xsec_weight = full_weight*gen_weight;
-            pu_weight = -1;
-            pu_n = 0;
+            //pu_n = 0;
 
             // pileup info
-            for( unsigned int PVI = 0; PVI < PileupInfos->size(); ++PVI ) {
-                Int_t pu_bunchcrossing = PileupInfos->ptrAt( PVI )->getBunchCrossing();
-                if( pu_bunchcrossing == 0 ) {
-                    pu_n = PileupInfos->ptrAt( PVI )->getPU_NumInteractions();
-                }
-            }
+            //for( unsigned int PVI = 0; PVI < PileupInfos->size(); ++PVI ) {
+            //    Int_t pu_bunchcrossing = PileupInfos->ptrAt( PVI )->getBunchCrossing();
+            //    if( pu_bunchcrossing == 0 ) {
+            //        pu_n = PileupInfos->ptrAt( PVI )->getPU_NumInteractions();
+            //    }
+            //}
+            pu_n = PileupInfos->begin()->getTrueNumInteractions();
 
+            
+            //if (pu_n > 0) {
+            if (pu_n < puData_.size())
+                pu_weight = puData_[pu_n];
+            else
+                pu_weight = 0;
+            //}
+            //std::cout << pu_weight <<  " " << pu_n << std::endl;
             // gen vertex location
             for( unsigned int genLoop = 0 ; genLoop < genParticles->size(); genLoop++ ) {
                 if( genParticles->ptrAt( genLoop )->pdgId() == 25 ) { //might need to be changed for background MC samples...

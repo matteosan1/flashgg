@@ -5,51 +5,79 @@
 #include <iostream>
 
 tnp::FlashggSampleInfoTree::FlashggSampleInfoTree(const edm::ParameterSet& iConfig) {
-  // make trees as requested
-  edm::Service<TFileService> fs;
-  addTree_ = fs->make<TTree>("sampleInfo", "sampleInfo");
-  hnPU = fs->make<TH1F>("hnPU", "hnPU", 100, 0., 100.);
+  //// make trees as requested
+  //edm::Service<TFileService> fs;
+  //addTree_ = fs->make<TTree>("sampleInfo", "sampleInfo");
+  //hnPU = fs->make<TH1F>("hnPU", "hnPU", 100, 0., 100.);
+  //
+  //totalGenWeight_ = 0.0;
+  //nEvents_ = 0;
+  //min_ = 0;
+  //max_ = 0;
+  //
+  //addTree_->Branch("sumWeight", &totalGenWeight_, "sumWeight/D");
+  //addTree_->Branch("nEvents", &nEvents_, "nEvents/D");
 
-  totalGenWeight_ = 0.0;
-  nEvents_ = 0;
-  min_ = 0;
-  max_ = 0;
-  
-  addTree_->Branch("sumWeight", &totalGenWeight_, "sumWeight/D");
-  addTree_->Branch("nEvents", &nEvents_, "nEvents/D");
+  sumWeight_ = 0.0;
+  nEvents_ = 0.0;
+
+  produces<edm::MergeableDouble, edm::InLumi> ("totalGenWeight"); 
+  produces<edm::MergeableDouble, edm::InLumi> ("totalEvent");
 }
+
+void tnp::FlashggSampleInfoTree::beginLuminosityBlock(const edm::LuminosityBlock &, const edm::EventSetup&)
+{}
 
 void tnp::FlashggSampleInfoTree::endLuminosityBlock(edm::LuminosityBlock const& iLumi, edm::EventSetup const& iSetup) {
 
   edm::Handle<edm::MergeableDouble> totWeight;
   iLumi.getByLabel(edm::InputTag("weightsCount","totalWeight"), totWeight);
   if (totWeight.isValid())
-    totalGenWeight_ += (double)totWeight->value;
+    sumWeight_ += (double)totWeight->value;
 
   edm::Handle<edm::MergeableCounter> nEventsH;
   iLumi.getByLabel(edm::InputTag("eventCount"), nEventsH);
   if (nEventsH.isValid())
     nEvents_ += (double)nEventsH->value;
 
-  edm::Handle<edm::MergeableHisto<float> > nPUH;
-  iLumi.getByLabel(edm::InputTag("weightsCount","obsPileup"), nPUH);
-  if (nPUH.isValid()) {
-    min_ = nPUH->min;
-    max_ = nPUH->max;
-    if (values_.size() == 0)
-      values_.resize(nPUH->values.size(), 0);
-    
-    for (unsigned int i=0; i<values_.size(); i++)
-      values_[i] += nPUH->values[i];
-  }
+  //edm::Handle<edm::MergeableHisto<float> > nPUH;
+  //iLumi.getByLabel(edm::InputTag("weightsCount","obsPileup"), nPUH);
+  //if (nPUH.isValid()) {
+  //  min_ = nPUH->min;
+  //  max_ = nPUH->max;
+  //  if (values_.size() == 0)
+  //    values_.resize(nPUH->values.size(), 0);
+  //  
+  //  for (unsigned int i=0; i<values_.size(); i++)
+  //    values_[i] += nPUH->values[i];
+  //}
 }
+
+void tnp::FlashggSampleInfoTree::endLuminosityBlockProduce(edm::LuminosityBlock & theLuminosityBlock, const edm::EventSetup & theSetup) {
+  //LogTrace("WeightsCounting") << "endLumi: adding " << weightProcessedInLumi_ << " events" << endl;
+  
+  std::auto_ptr<edm::MergeableDouble> numWeightssPtr(new edm::MergeableDouble);
+  numWeightssPtr->value = sumWeight_;
+  theLuminosityBlock.put(numWeightssPtr, "totalGenWeight");
+  
+  std::auto_ptr<edm::MergeableDouble> numEventsPtr(new edm::MergeableDouble);
+  numEventsPtr->value = nEvents_;
+  theLuminosityBlock.put(numEventsPtr, "totalEvent");
+  //return;
+  //addTree_->Fill();
+  
+}
+
+void tnp::FlashggSampleInfoTree::produce(edm::Event &, const edm::EventSetup&) 
+{}
+
 
 void tnp::FlashggSampleInfoTree::endJob() {
 
-  hnPU->SetBins(values_.size(), min_, max_);
-  for (int i=0; i<hnPU->GetNbinsX(); i++)
-    hnPU->SetBinContent(i, values_[i]);
-  addTree_->Fill();
+  //hnPU->SetBins(values_.size(), min_, max_);
+  //for (int i=0; i<hnPU->GetNbinsX(); i++)
+  //  hnPU->SetBinContent(i, values_[i]);
+  //addTree_->Fill();
 }
 
 DEFINE_FWK_MODULE(tnp::FlashggSampleInfoTree);
