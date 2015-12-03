@@ -108,7 +108,7 @@ git cms-merge-topic -u sethzenz:topic-conversion-tools-for-pat-ele-74X
 echo "Setting up TnP tools..."
 git cms-addpkg DataFormats/RecoCandidate
 git cms-addpkg PhysiscsTools/TagAndProbe
-git cms-merge-topic -u matteosan1:egm_tnp
+git cms-merge-topic -u matteosan1:egm_tnp_temp
 
 
 echo "adding hook for indentation"
