@@ -2,13 +2,14 @@ import FWCore.ParameterSet.Config as cms
 from flashgg.MicroAOD.flashggJets_cfi import maxJetCollections
 
 flashggDiPhotons = cms.EDProducer('FlashggDiPhotonProducer',
-                                  PhotonTag=cms.InputTag('flashggPhotons'),
+                                  PhotonTag=cms.InputTag('flashggRandomizedPhotons'),
                                   VertexTag=cms.InputTag('offlineSlimmedPrimaryVertices'),
                                   VertexSelectorName=cms.string("FlashggLegacyVertexSelector"),
                                   VertexCandidateMapTag=cms.InputTag("flashggVertexMapUnique"),
                                   ConversionTag=cms.InputTag("reducedEgamma","reducedConversions"),             
                                   ConversionTagSingleLeg=cms.InputTag("reducedEgamma","reducedSingleLegConversions"),
                                   beamSpotTag = cms.InputTag( "offlineBeamSpot" ),
+                                  GenParticleTag=cms.InputTag( "flashggPrunedGenParticles" ),
 
                                   ##Parameters for Legacy Vertex Selector                                                
                                   #vtxId 2012

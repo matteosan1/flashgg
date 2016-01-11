@@ -2,7 +2,9 @@
 <class name="flashgg::WeightedObject" ClassVersion="10">
   <version ClassVersion="10" checksum="1340095011"/>
 </class>
-<class name="flashgg::PDFWeightObject" ClassVersion="11">
+<class name="flashgg::PDFWeightObject" ClassVersion="13">
+  <version ClassVersion="13" checksum="3868816395"/>
+  <version ClassVersion="12" checksum="3929296232"/>
   <version ClassVersion="11" checksum="103726048"/>
   <version ClassVersion="10" checksum="92077144"/>
 </class>
@@ -15,8 +17,8 @@
 </class>
 <class name="std::vector<flashgg::DiPhotonMVAResult>"/>
 <class name="edm::Wrapper<std::vector<flashgg::DiPhotonMVAResult> >"/>
-<class name="flashgg::VBFMVAResult" ClassVersion="10">
-  <version ClassVersion="10" checksum="3407874632"/>
+<class name="flashgg::VBFMVAResult" ClassVersion="12">
+  <version ClassVersion="12" checksum="585243665"/>
 </class>
 <class name="std::vector<flashgg::VBFMVAResult>"/>
 <class name="edm::Wrapper<std::vector<flashgg::VBFMVAResult> >"/>
@@ -60,8 +62,8 @@
 <class name="std::vector<edm::Ptr<flashgg::Jet> >"/>
 <class name="edm::OwnVector<flashgg::DiPhotonTagBase, edm::ClonePolicy<flashgg::DiPhotonTagBase> >" />
 <class name="edm::Wrapper<edm::OwnVector<flashgg::DiPhotonTagBase, edm::ClonePolicy<flashgg::DiPhotonTagBase> > >" />
-<class name="flashgg::VBFTagTruth" ClassVersion="10">
-  <version ClassVersion="10" checksum="573481217"/>
+<class name="flashgg::VBFTagTruth" ClassVersion="11">
+  <version ClassVersion="11" checksum="2745005875"/>
 </class>
 <class name="std::vector<flashgg::VBFTagTruth>"/>
 <class name="edm::Wrapper<std::vector<flashgg::VBFTagTruth> >"/>
@@ -90,8 +92,9 @@
 <class name="edm::Ptr<flashgg::Photon>"/>
 <class name="std::vector<flashgg::Photon>"/>
 <class name="edm::Wrapper<std::vector<flashgg::Photon> >"/>
-<class name="flashgg::DiPhotonCandidate" ClassVersion="10">
+<class name="flashgg::DiPhotonCandidate" ClassVersion="11">
   <version ClassVersion="10" checksum="2243573479"/>
+  <version ClassVersion="11" checksum="3086156793"/>
 </class>
 <class name="std::vector<flashgg::DiPhotonCandidate>"/>
 <class name="edm::Wrapper<std::vector<flashgg::DiPhotonCandidate> >"/>
@@ -153,7 +156,9 @@
 </class>
 <class name="std::pair<edm::Ptr<reco::Vertex>,flashgg::MinimalPileupJetIdentifier>"/>
 <class name="std::map<edm::Ptr<reco::Vertex>,flashgg::MinimalPileupJetIdentifier>"/>
-<class name="flashgg::Jet" ClassVersion="10">
+<class name="flashgg::Jet" ClassVersion="12">
+  <version ClassVersion="12" checksum="1532368094"/>
+  <version ClassVersion="11" checksum="3459570589"/>
   <version ClassVersion="10" checksum="2045570510"/>
 </class>
 <class name="std::vector<flashgg::Jet>"/>

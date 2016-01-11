@@ -28,8 +28,6 @@ namespace flashgg {
                 assert( puWeight_.size() == puBins_.size()-1 );
                 auto scl  = std::accumulate(mcpu.begin(),mcpu.end(),0.) / std::accumulate(puWeight_.begin(),puWeight_.end(),0.); // rescale input distribs to unit ara
                 for( size_t ib = 0; ib<puWeight_.size(); ++ib ) { puWeight_[ib] *= scl / mcpu[ib]; }
-                auto mcpostsum =  std::accumulate(puWeight_.begin(),puWeight_.end(),0.);
-                for( size_t ib = 0; ib<puWeight_.size(); ++ib ) { puWeight_[ib] /= mcpostsum; } // preserve normalization
                 if( cfg.exists("useTruePu") ) { useTruePu_ = cfg.getParameter<bool>("useTruePu"); }
             }
         }
@@ -50,6 +48,7 @@ namespace flashgg {
         else if( varName == "lumi" ) { return 4; }
         else if( varName == "npu" ) { return 5; }
         else if( varName == "puweight" ) { return 6; }
+        else if( varName == "processIndex" ) { return 7; }
         return -1;
     }
 
@@ -67,6 +66,7 @@ namespace flashgg {
         else if( varIndex == 4 ) { return ( float )cache_.lumi; }
         else if( varIndex == 5 ) { return ( float )cache_.npu; }
         else if( varIndex == 6 ) { return ( float )cache_.puweight; }
+        else if( varIndex == 7 ) { return ( float )cache_.processIndex; }
         return -1e+6;
 
     }
@@ -102,7 +102,7 @@ namespace flashgg {
                 if( cache_.npu <= puBins_.front() || cache_.npu >= puBins_.back() ) {
                     cache_.puweight = 0.;
                 } else { 
-                    int ibin = std::lower_bound(puBins_.begin(), puBins_.end(), cache_.npu) - puBins_.begin();
+                    int ibin = (std::lower_bound(puBins_.begin(), puBins_.end(), cache_.npu) - puBins_.begin()) -1;
                     cache_.puweight = puWeight_[ibin];
                 }
             }

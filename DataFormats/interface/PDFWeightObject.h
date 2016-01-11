@@ -17,8 +17,12 @@ namespace flashgg {
         ~PDFWeightObject();
         
         vector<uint16_t> pdf_weight_container;
-        
-        vector<float> uncompress() const;
+       
+	vector<uint16_t> alpha_s_container;
+
+	vector<uint16_t> qcd_scale_container;
+ 
+        vector<float> uncompress( vector<uint16_t>& ) const;
         
       };
  }

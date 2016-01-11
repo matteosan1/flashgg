@@ -85,7 +85,9 @@ namespace flashgg {
         /// float eventWeight(const edm::EventBase& event);
         edm::InputTag src_, genInfo_, pdfWeightToken_;
         std::string processId_;
+        int processIndex_;
         double lumiWeight_;
+        bool splitLumiWeight_;
         int maxCandPerEvent_;
         double sqrtS_;
         double intLumi_;
@@ -107,6 +109,8 @@ namespace flashgg {
         bool pdfWeightHistosBooked_;
         bool dumpPdfWeights_;
         int nPdfWeights_;
+        int nAlphaSWeights_;
+        int nScaleWeights_;
 
         //std::map<std::string, std::vector<dumper_type> > dumpers_; FIXME template key
         std::map< KeyT, std::vector<dumper_type> > dumpers_;
@@ -123,7 +127,10 @@ namespace flashgg {
         src_( cfg.getParameter<edm::InputTag>( "src" ) ),
         genInfo_( cfg.getParameter<edm::InputTag>( "generatorInfo" ) ),
         processId_( cfg.getParameter<std::string>( "processId" ) ),
+        processIndex_( cfg.exists("processIndex") ? cfg.getParameter<int>("processIndex") : 999 ),
+        //        processIndex_( cfg.getParameter<int>("processIndex")  ),
         lumiWeight_( cfg.getParameter<double>( "lumiWeight" ) ),
+        splitLumiWeight_( cfg.getUntrackedParameter<bool>( "splitLumiWeight", false ) ),
         maxCandPerEvent_( cfg.getParameter<int>( "maxCandPerEvent" ) ),
         sqrtS_( cfg.getUntrackedParameter<double>( "sqrtS", 13. ) ),
         intLumi_( cfg.getUntrackedParameter<double>( "intLumi",1000. ) ),
@@ -134,7 +141,7 @@ namespace flashgg {
         dumpHistos_( cfg.getUntrackedParameter<bool>( "dumpHistos", false ) ),
         dumpGlobalVariables_( cfg.getUntrackedParameter<bool>( "dumpGlobalVariables", true ) ),
         classifier_( cfg.getParameter<edm::ParameterSet>( "classifierCfg" ) ),
-        throwOnUnclassified_( cfg.exists("throwOnUnclassified") ? cfg.getParameter<bool>("throwOnUnclassified") : true ),
+        throwOnUnclassified_( cfg.exists("throwOnUnclassified") ? cfg.getParameter<bool>("throwOnUnclassified") : false ),
         globalVarsDumper_( 0 )        
 
     {
@@ -144,8 +151,10 @@ namespace flashgg {
 	    
         
         nPdfWeights_=0;
+        nAlphaSWeights_=0;
+        nScaleWeights_=0;
         dumpPdfWeights_=false;
-
+        
         std::map<std::string, std::string> replacements;
         replacements.insert( std::make_pair( "$COLLECTION", src_.label() ) );
         replacements.insert( std::make_pair( "$PROCESS", processId_ ) );
@@ -154,6 +163,13 @@ namespace flashgg {
 
         if( dumpGlobalVariables_ ) {
             globalVarsDumper_ = new GlobalVariablesDumper( cfg.getParameter<edm::ParameterSet>( "globalVariables" ) );
+            if( splitLumiWeight_ ) {
+                globalVarsDumper_->dumpLumiFactor(lumiWeight_);
+                lumiWeight_ = 1.;
+            }
+            globalVarsDumper_->setProcessIndex(processIndex_);
+        } else if ( splitLumiWeight_ ) {
+            throw cms::Exception("Configuration error") << "You specified the splitLumiWeight option but not the dumpGlobalVariables one. I can split the weight only if you also set the latter.\n";
         }
        
         pdfWeightHistosBooked_=false;
@@ -170,7 +186,13 @@ namespace flashgg {
             //and want dumpPdfWeights_ true, then the if fails and we don't check: the value stays true or >0
             //this relies on the fact that we want nPdfWeights the same for all cats.
             if (nPdfWeights_ == 0) {
-		    nPdfWeights_ = cat.exists("nPdfWeights") ?  cat.getParameter<int>( "nPdfWeights" ) : 0;
+                nPdfWeights_ = cat.exists("nPdfWeights") ?  cat.getParameter<int>( "nPdfWeights" ) : 0;
+            }
+            if (nAlphaSWeights_ == 0) {
+                nAlphaSWeights_ = cat.exists("nAlphaSWeights") ?  cat.getParameter<int>( "nAlphaSWeights" ) : 0;
+            }
+            if (nScaleWeights_ == 0) {
+                nScaleWeights_ = cat.exists("nScaleWeights") ? cat.getParameter<int>( "nScaleWeights" ) : 0;
             }
             if (dumpPdfWeights_ == false ) {
 		    dumpPdfWeights_ = cat.exists("dumpPdfWeights")? cat.getParameter<bool>( "dumpPdfWeights" ) : false;
@@ -222,6 +244,12 @@ namespace flashgg {
             if (dumpPdfWeights_){
                 for( int j=0; j<nPdfWeights_;j++ ) {
                     dynamic_cast<RooRealVar *>( ws_->factory( Form("pdfWeight_%d[1.]",j)) )->setConstant( false );
+                }
+                for( int j=0; j<nAlphaSWeights_;j++ ) {
+                    dynamic_cast<RooRealVar *>( ws_->factory( Form("alphaSWeight_%d[1.]",j)) )->setConstant( false );
+                }
+                for( int j=0; j<nScaleWeights_;j++ ) {
+                    dynamic_cast<RooRealVar *>( ws_->factory( Form("scaleWeight_%d[1.]",j)) )->setConstant( false );
                 }
             }
             RooRealVar* intLumi = new RooRealVar("IntLumi","IntLumi",intLumi_);
@@ -276,13 +304,13 @@ namespace flashgg {
 
                 if( genInfo.isValid() ) {
                     const auto &weights = genInfo->weights();
-                    // FIMXE store alternative/all weight-sets
+                    // FIXME store alternative/all weight-sets
                     if( ! weights.empty() ) {
                         weight *= weights[0];
                     }
                 }
                 
-                if( globalVarsDumper_->puReWeight() ) {
+                if( globalVarsDumper_ && globalVarsDumper_->puReWeight() ) {
                     weight *= globalVarsDumper_->cache().puweight;
                 }
             }
@@ -297,18 +325,34 @@ namespace flashgg {
             edm::Handle<vector<flashgg::PDFWeightObject> > WeightHandle;
             event.getByLabel( pdfWeightToken_, WeightHandle );
 
-
             for( unsigned int weight_index = 0; weight_index < (*WeightHandle).size(); weight_index++ ){
-                std::vector<float> uncompressed = (*WeightHandle)[weight_index].uncompress();
+
+                vector<uint16_t> compressed_weights = (*WeightHandle)[weight_index].pdf_weight_container; 
+                vector<uint16_t> compressed_alpha_s_weights = (*WeightHandle)[weight_index].alpha_s_container; 
+                vector<uint16_t> compressed_scale_weights = (*WeightHandle)[weight_index].qcd_scale_container;
+
+                std::vector<float> uncompressed = (*WeightHandle)[weight_index].uncompress( compressed_weights );
+                std::vector<float> uncompressed_alpha_s = (*WeightHandle)[weight_index].uncompress( compressed_alpha_s_weights );
+                std::vector<float> uncompressed_scale = (*WeightHandle)[weight_index].uncompress( compressed_scale_weights );
+
                 for( unsigned int j=0; j<(*WeightHandle)[weight_index].pdf_weight_container.size();j++ ) {
                     pdfWeights.push_back(uncompressed[j]);
                 }
+                //                std::cout << "DEBUG  pushed back " << (*WeightHandle)[weight_index].pdf_weight_container.size() << "pdf weights " << std::endl;
+                for( unsigned int j=0; j<(*WeightHandle)[weight_index].alpha_s_container.size();j++ ) {
+                    pdfWeights.push_back(uncompressed_alpha_s[j]);
+                }
+                //                std::cout << "DEBUG  pushed back " << (*WeightHandle)[weight_index].alpha_s_container.size() << " alpha_s weights " << std::endl;
+                for( unsigned int j=0; j<(*WeightHandle)[weight_index].qcd_scale_container.size();j++ ) {
+                    pdfWeights.push_back(uncompressed_scale[j]);
+                }
+                //                std::cout << "DEBUG  pushed back " << (*WeightHandle)[weight_index].qcd_scale_container.size() << " scale weights " << std::endl;
             }
 
 
             return pdfWeights;
         }
-
+        
 
 
     template<class C, class T, class U>
@@ -322,7 +366,17 @@ namespace flashgg {
 
             weight_ = eventWeight( event );
 	    if( dumpPdfWeights_){
+                
+                // want pdfWeights_ to be scale factors rather than akternative weights.
+                // To do this, each PDF weight needs to be divided by the nominal MC weight
+                // which is obtained by dividing through weight_ by the lumiweight...
+                // The Scale Factor is then pdfWeight/nominalMC weight
                 pdfWeights_ =pdfWeights( event );
+                for (unsigned int i = 0; i < pdfWeights_.size() ; i++){
+                    //                    std::cout << " LC DEBUG pdfWeight i=" << i << "  ("<< pdfWeights_[i] <<") -->  " << pdfWeights_[i] << " * (" << lumiWeight_ << "/"<< weight_ <<") = " << pdfWeights_[i] << " / " << 1/(lumiWeight_/weight_) << " = " <<  (pdfWeights_[i] )*(lumiWeight_/weight_) << std::endl;
+                pdfWeights_[i]= (pdfWeights_[i] )*(lumiWeight_/weight_); // ie pdfWeight/nominal MC weight
+                }
+                
             }
 
             int nfilled = maxCandPerEvent_;
@@ -333,8 +387,16 @@ namespace flashgg {
 
                 if( which != dumpers_.end() ) {
                     int isub = ( hasSubcat_[cat.first] ? cat.second : 0 );
-                    // FIXME per-candidate weights
-                    which->second[isub].fill( cand, weight_, pdfWeights_, maxCandPerEvent_ - nfilled );
+                   double fillWeight =weight_;
+                   const  WeightedObject* tag = dynamic_cast<const WeightedObject* >( &cand );
+                    if ( tag != NULL ){
+
+                    //std::cout << "TEST  weight_  " << fillWeight << std::endl;
+                    fillWeight =fillWeight*(tag->centralWeight());
+                    //std::cout << "TEST cand centralWeight " << tag->centralWeight() << std::endl;
+                    //std::cout << "TEST  weight  " << fillWeight << std::endl;
+                    }
+                    which->second[isub].fill( cand, fillWeight, pdfWeights_, maxCandPerEvent_ - nfilled );
                     --nfilled;
                 } else if( throwOnUnclassified_ ) {
                     throw cms::Exception( "Runtime error" ) << "could not find dumper for category [" << cat.first << "," << cat.second << "]"
