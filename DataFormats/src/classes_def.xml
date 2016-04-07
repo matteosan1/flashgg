@@ -257,4 +257,9 @@
 </class>
 <class name="std::vector<flashgg::TagCandidate>"/>
 <class name="edm::Wrapper<std::vector<flashgg::TagCandidate> >"/>
+
+<class name="flashgg::QuadPhotonCandidate" ClassVersion="0">
+</class>
+<class name="std::vector<flashgg::QuadPhotonCandidate>"/>
+<class name="edm::Wrapper<std::vector<flashgg::QuadPhotonCandidate> >"/>
 </lcgdict>

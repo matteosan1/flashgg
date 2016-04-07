@@ -33,6 +33,7 @@
 #include "flashgg/DataFormats/interface/PDFWeightObject.h"
 #include "flashgg/DataFormats/interface/ZPlusJetTag.h"
 #include "flashgg/DataFormats/interface/TagCandidate.h"
+#include "flashgg/DataFormats/interface/QuadPhotonCandidate.h"
 
 #include <vector>
 #include <map>
@@ -263,7 +264,13 @@ namespace  {
         flashgg::TagCandidate                                        tags;
         edm::Wrapper<flashgg::TagCandidate>                      wrp_tags;
         std::vector<flashgg::TagCandidate>                       vec_tags;
-        edm::Wrapper<std::vector<flashgg::TagCandidate> >    wrp_vec_tags;
+        edm::Wrapper<std::vector<flashgg::TagCandidate> >    wrp_vec_tags;  
+
+        flashgg::QuadPhotonCandidate                                        quadphs;
+        edm::Wrapper<flashgg::QuadPhotonCandidate>                      wrp_quadphs;
+        std::vector<flashgg::QuadPhotonCandidate>                       vec_quadphs;
+        edm::Wrapper<std::vector<flashgg::QuadPhotonCandidate> >    wrp_vec_quadphs;
+
     };
 }
 // Local Variables:

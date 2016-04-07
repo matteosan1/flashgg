@@ -137,6 +137,7 @@ namespace flashgg {
 
         std::map<edm::Ptr<reco::Vertex>, float> const phoIdMvaD() const {return phoIdMvaD_;};
         float const phoIdMvaDWrtVtx( const edm::Ptr<reco::Vertex> &vtx, bool lazy = false ) const { return findVertexFloat( vtx, phoIdMvaD_, lazy ); }; // if lazy flag is true only compare key (needed since fwlite does not fill provenance info)
+        float const phoIdMvaWrtVtx0() const { return findVertex0Float( phoIdMvaD_ ); };
 
         void setMatchedGenPhoton( const edm::Ptr<pat::PackedGenParticle> pgp ) { addUserCand( "matchedGenPhoton", pgp ); };
         const pat::PackedGenParticle * matchedGenPhoton() const { return dynamic_cast<const pat::PackedGenParticle *>( userCand( "matchedGenPhoton" ).get() ); };
